@@ -1,2 +1,2 @@
 # portfolioPage
-This is my Week one independent project
+This is my Week one independent project.
