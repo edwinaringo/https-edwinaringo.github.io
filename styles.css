@@ -148,3 +148,83 @@ a{
   margin-bottom: 2.5rem;
   color: rgba(255,255,255,.5);
 }
+
+/*styles for the main*/
+.main{
+  width: calc(100%-26rem);
+  transform: translateX(26rem);
+}
+
+section:not(.hero){
+  padding: 5rem 0;
+  ;
+}
+
+.hero{
+  height: 100vh;
+  background: url("./image1.jpeg") bottom center/cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+  width: 100vh;
+  justify-content: center;
+}
+
+.name-heading{
+  position: absolute;
+  top:35%;
+  left:50%;
+  transform: translateX(-50%);
+  font-size: 15vw;
+  font-family: var(--heading-font-family);
+  color: var(--light-color);
+  z-index: 1;
+  user-select: none;
+}
+
+.hero-person-image{
+  max-width: 95%;
+  user-select: none;
+  -webkit-user-drag: none;
+  margin-top: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.scroll-down{
+  position: absolute;
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: index 5; 
+}
+
+.mouse{
+  height: 5rem;
+  width: 2.5rem;
+  border: 2px solid var(--light-color);
+  border-radius: 2rem;
+  display: flex;
+}
+
+.mouse span{
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--light-color);
+  border-radius: 50%;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
