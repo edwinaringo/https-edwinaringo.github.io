@@ -271,7 +271,15 @@ transform: rotate(45deg);
   text-align: left;
 }
 
+.grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap:2.5rem;
+}
 
+.my-projects .grid item{
+  
+}
 
 
 
